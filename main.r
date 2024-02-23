@@ -4,7 +4,7 @@
 
 # appel à l'API de modération
 def filtrer_contenu(contenu)
-  # Appel à l'API ici (vous devez obtenir une clé d'accès)
+  # Appel à l'API ici (une clé d'accès)
 api_url = "https://moderation.logora.fr"
 
 # Requête HTTP POST
@@ -23,7 +23,7 @@ api_resultat = result["clé API"]
 
   if api_resultat == "rejeté"
     puts "Contenu inapproprié !"
-    # Faites quelque chose pour filtrer ou supprimer le contenu
+    #  filtrer ou supprimer le contenu
   else
     puts "Contenu approprié"
   end
