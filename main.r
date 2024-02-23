@@ -20,7 +20,7 @@ request.body = { text: "Contenu à modérer" }.to_json
 
 # La requête à l'API
 response = http.request(request)
-api_resultat = result["clé API"]
+api_resultat = result["uri"]
 
   if api_resultat == "rejeté"
     puts "Contenu inapproprié !"
