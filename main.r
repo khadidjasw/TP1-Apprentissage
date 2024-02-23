@@ -3,7 +3,7 @@
 
 
 # appel à l'API de modération
-def filtrer_contenu(contenu)
+def filtrer_contenu (contenu)
   # Appel à l'API ici (une clé d'accès)
 api_url = "https://moderation.logora.fr"
 
